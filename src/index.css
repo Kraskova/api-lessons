@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/* =========================================================
+   VS Code Authentic Theme Syntax Highlighting for Prism.js
+   ========================================================= */
+
+/* Dark Theme (VS Code Dark+) */
+.vscode-dark-code {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+.vscode-dark-code .token.comment,
+.vscode-dark-code .token.prolog,
+.vscode-dark-code .token.doctype,
+.vscode-dark-code .token.cdata {
+  color: #6a9955;
+  font-style: italic;
+}
+
+.vscode-dark-code .token.punctuation {
+  color: #d4d4d4;
+}
+
+.vscode-dark-code .token.property,
+.vscode-dark-code .token.tag,
+.vscode-dark-code .token.constant,
+.vscode-dark-code .token.symbol,
+.vscode-dark-code .token.deleted {
+  color: #9cdcfe;
+}
+
+.vscode-dark-code .token.boolean,
+.vscode-dark-code .token.number {
+  color: #b5cea8;
+}
+
+.vscode-dark-code .token.selector,
+.vscode-dark-code .token.attr-name,
+.vscode-dark-code .token.string,
+.vscode-dark-code .token.char,
+.vscode-dark-code .token.builtin,
+.vscode-dark-code .token.inserted {
+  color: #ce9178;
+}
+
+.vscode-dark-code .token.operator,
+.vscode-dark-code .token.entity,
+.vscode-dark-code .token.url,
+.vscode-dark-code .language-css .token.string,
+.vscode-dark-code .style .token.string {
+  color: #d4d4d4;
+}
+
+.vscode-dark-code .token.atrule,
+.vscode-dark-code .token.attr-value,
+.vscode-dark-code .token.keyword {
+  color: #569cd6;
+}
+
+.vscode-dark-code .token.function,
+.vscode-dark-code .token.class-name {
+  color: #dcdcaa;
+}
+
+.vscode-dark-code .token.regex,
+.vscode-dark-code .token.important,
+.vscode-dark-code .token.variable {
+  color: #4ec9b0;
+}
+
+/* Light Theme (VS Code Light+) */
+.vscode-light-code {
+  background-color: #f8f9fa;
+  color: #24292e;
+}
+
+.vscode-light-code .token.comment,
+.vscode-light-code .token.prolog,
+.vscode-light-code .token.doctype,
+.vscode-light-code .token.cdata {
+  color: #008000;
+  font-style: italic;
+}
+
+.vscode-light-code .token.punctuation {
+  color: #24292e;
+}
+
+.vscode-light-code .token.property,
+.vscode-light-code .token.tag,
+.vscode-light-code .token.constant,
+.vscode-light-code .token.symbol,
+.vscode-light-code .token.deleted {
+  color: #001080;
+}
+
+.vscode-light-code .token.boolean,
+.vscode-light-code .token.number {
+  color: #098658;
+}
+
+.vscode-light-code .token.selector,
+.vscode-light-code .token.attr-name,
+.vscode-light-code .token.string,
+.vscode-light-code .token.char,
+.vscode-light-code .token.builtin,
+.vscode-light-code .token.inserted {
+  color: #a31515;
+}
+
+.vscode-light-code .token.operator,
+.vscode-light-code .token.entity,
+.vscode-light-code .token.url {
+  color: #24292e;
+}
+
+.vscode-light-code .token.atrule,
+.vscode-light-code .token.attr-value,
+.vscode-light-code .token.keyword {
+  color: #0000ff;
+}
+
+.vscode-light-code .token.function,
+.vscode-light-code .token.class-name {
+  color: #795e26;
+}
+
+.vscode-light-code .token.regex,
+.vscode-light-code .token.important,
+.vscode-light-code .token.variable {
+  color: #811f3f;
+}
+

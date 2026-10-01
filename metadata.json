@@ -1,0 +1,6 @@
+{
+  "name": "Документация API: курс для технических писателей в VS Code",
+  "description": "Практический интерактивный курс по разработке документации REST API на примерах сервисов прогноза погоды с симулятором VS Code, встроенным клиентом Postman, терминалом cURL и системой тестирования с откатом.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
